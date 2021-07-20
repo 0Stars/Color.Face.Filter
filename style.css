@@ -1,15 +1,23 @@
-h3
+body
+{
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: black;
+}
+
+#title
 {
   font-size: 25px !important;
+  background-color: white;
+  color: black;
 }
 .btn-success:hover
 {
-  background-color: linen;
+background-color: #861EFF;
 }
 canvas {
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 
@@ -20,15 +28,8 @@ to {box-shadow: 1px 1px 38px #861EFF;}
 
 }
 
-copy_right_footer {
-    background-color: white;
-    color: black;
-}
-
-body {
-    background-color: black;
-}
-
-h4 {
-    color: white;
+#camera
+{
+  background-color: white;
+  color: black;
 }
